@@ -1,7 +1,7 @@
 # ninja log v6
 2	461	7637062910411522	CMakeFiles/my_study_c++.dir/source/study_pointer.cpp.obj	66f9620828bc1d2b
 4	479	7637078819787354	CMakeFiles/my_study_c++.dir/source/study_class.cpp.obj	e4d321f99ec5ad32
-442	651	7637338052346822	my_study_c++.exe	d877e3899f564d0e
+618	719	7637462819369695	my_study_c++.exe	8ccf6744f3115673
 3	474	7637229962649626	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
 4	442	7637338047960643	CMakeFiles/my_study_c++.dir/source/study_quote.cpp.obj	a2777ab65eaeb84
 3	452	7637123163763083	CMakeFiles/my_study_c++.dir/source/study_static.cpp.obj	b85523d4aeda89ad
@@ -12,8 +12,24 @@
 3	497	7637287786483414	CMakeFiles/my_study_c++.dir/source/study_array.cpp.obj	d37e596430f0fc7b
 3	702	7637301288294352	CMakeFiles/my_study_c++.dir/source/study_string.cpp.obj	1a01a197e6a2ec36
 3	445	7637321449330737	CMakeFiles/my_study_c++.dir/source/study_const.cpp.obj	435ef23502e0e5b1
-17	600	7637462012493248	CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj	603d904ef6314db8
-3	588	7637462696688585	CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj	603d904ef6314db8
-588	688	7637462702548020	my_study_c++.exe	8ccf6744f3115673
 4	617	7637462813231857	CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj	603d904ef6314db8
-618	719	7637462819369695	my_study_c++.exe	8ccf6744f3115673
+12	623	7637478285573466	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+624	761	7637478291698596	my_study_c++.exe	736a8e2705dcba69
+3	432	7637478395627512	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+432	620	7637478399922645	my_study_c++.exe	736a8e2705dcba69
+3	436	7637480346919206	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+436	627	7637480351253052	my_study_c++.exe	736a8e2705dcba69
+4	441	7637481281999516	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+441	634	7637481286377291	my_study_c++.exe	736a8e2705dcba69
+3	442	7637482631261174	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+442	641	7637482635660394	my_study_c++.exe	736a8e2705dcba69
+4	469	7637484032489443	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+470	663	7637484037140084	my_study_c++.exe	736a8e2705dcba69
+3	437	7637485135916190	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+438	631	7637485140268185	my_study_c++.exe	736a8e2705dcba69
+3	452	7637486378387213	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+453	648	7637486382885371	my_study_c++.exe	736a8e2705dcba69
+3	448	7637487691221988	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+448	639	7637487695676699	my_study_c++.exe	736a8e2705dcba69
+17	451	7637488660349676	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
+451	645	7637488664681776	my_study_c++.exe	736a8e2705dcba69

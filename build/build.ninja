@@ -49,8 +49,8 @@ cmake_ninja_workdir = F$:/Cpro_stduty/build/
 
 build cmake_object_order_depends_target_my_study_c++: phony || .
 
-build CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj: CXX_COMPILER__my_study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_explicit.cpp || cmake_object_order_depends_target_my_study_c++
-  DEP_FILE = CMakeFiles\my_study_c++.dir\source\study_explicit.cpp.obj.d
+build CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj: CXX_COMPILER__my_study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_operator.cpp || cmake_object_order_depends_target_my_study_c++
+  DEP_FILE = CMakeFiles\my_study_c++.dir\source\study_operator.cpp.obj.d
   FLAGS = -g
   INCLUDES = -IF:/Cpro_stduty/study_c++/include
   OBJECT_DIR = CMakeFiles\my_study_c++.dir
@@ -64,7 +64,7 @@ build CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj: CXX_COMPILER__m
 #############################################
 # Link the executable my_study_c++.exe
 
-build my_study_c++.exe: CXX_EXECUTABLE_LINKER__my_study_c.2b.2b_Debug CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj
+build my_study_c++.exe: CXX_EXECUTABLE_LINKER__my_study_c.2b.2b_Debug CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\my_study_c++.dir
