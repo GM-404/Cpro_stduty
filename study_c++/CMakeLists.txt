@@ -23,5 +23,6 @@ add_executable(my_study_c++
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_const.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_new.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_explicit.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_operator.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_operator.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_this.cpp
 )

@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/Cpro_stduty/build",
-  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_operator.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_operator.cpp",
-  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_operator.cpp",
-  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_operator.cpp.obj"
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_this.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_this.cpp",
+  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_this.cpp",
+  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_this.cpp.obj"
 }
 ]
