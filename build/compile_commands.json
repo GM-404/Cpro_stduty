@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/Cpro_stduty/build",
-  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_class_inherit.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_class_inherit.cpp",
-  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_class_inherit.cpp",
-  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_class_inherit.cpp.obj"
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_explicit.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_explicit.cpp",
+  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_explicit.cpp",
+  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_explicit.cpp.obj"
 }
 ]
