@@ -12,4 +12,7 @@ add_executable(my_study_c++
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_quote.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_class.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/source/study_class_log.cpp
+
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_static.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_enum.cpp
 )

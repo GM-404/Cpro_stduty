@@ -7,15 +7,18 @@
 class LOG
 {
 public:
-    const int LOG_LEVEL_Error = 1;
-    const int LOG_LEVEL_Warning = 2;
-    const int LOG_LEVEL_Info = 3;
+    enum level
+    {
+        LOG_LEVEL_Error = 1,
+        LOG_LEVEL_Warning = 2,
+        LOG_LEVEL_Info = 3
+    };
 
 private:
-    int m_level = LOG_LEVEL_Info; // 默认等级，全部打印出来
+    level m_level = LOG_LEVEL_Info; // 默认等级，全部打印出来
 
 public:
-    void SetLevel(int level) // 设置日志等级
+    void SetLevel(level level) // 设置日志等级
     {
         m_level = level;
     }
