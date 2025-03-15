@@ -1,0 +1,17 @@
+# ninja log v6
+2	461	7637062910411522	CMakeFiles/my_study_c++.dir/source/study_pointer.cpp.obj	66f9620828bc1d2b
+4	479	7637078819787354	CMakeFiles/my_study_c++.dir/source/study_class.cpp.obj	e4d321f99ec5ad32
+480	671	7637078824553301	my_study_c++.exe	6485c5b9f53189c7
+4	435	7637065196948238	CMakeFiles/my_study_c++.dir/source/study_quote.cpp.obj	a2777ab65eaeb84
+12	449	7637083698955450	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
+450	675	7637083703334048	my_study_c++.exe	26583410a0c79b8b
+3	438	7637097180616893	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
+438	631	7637097184976438	my_study_c++.exe	26583410a0c79b8b
+3	432	7637097609195116	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
+433	623	7637097613496452	my_study_c++.exe	26583410a0c79b8b
+3	475	7637097983281722	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
+475	665	7637097988003804	my_study_c++.exe	26583410a0c79b8b
+3	437	7637098437291696	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
+437	625	7637098441639300	my_study_c++.exe	26583410a0c79b8b
+3	429	7637099565017284	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
+429	623	7637099569269321	my_study_c++.exe	26583410a0c79b8b
