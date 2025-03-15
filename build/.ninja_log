@@ -1,7 +1,7 @@
 # ninja log v6
 2	461	7637062910411522	CMakeFiles/my_study_c++.dir/source/study_pointer.cpp.obj	66f9620828bc1d2b
 4	479	7637078819787354	CMakeFiles/my_study_c++.dir/source/study_class.cpp.obj	e4d321f99ec5ad32
-451	645	7637488664681776	my_study_c++.exe	736a8e2705dcba69
+472	667	7637528701014572	my_study_c++.exe	4ba50c7b323fad3a
 3	474	7637229962649626	CMakeFiles/my_study_c++.dir/source/study_class_log.cpp.obj	bb5dad45226c462e
 4	442	7637338047960643	CMakeFiles/my_study_c++.dir/source/study_quote.cpp.obj	a2777ab65eaeb84
 3	452	7637123163763083	CMakeFiles/my_study_c++.dir/source/study_static.cpp.obj	b85523d4aeda89ad
@@ -14,7 +14,23 @@
 3	445	7637321449330737	CMakeFiles/my_study_c++.dir/source/study_const.cpp.obj	435ef23502e0e5b1
 4	617	7637462813231857	CMakeFiles/my_study_c++.dir/source/study_explicit.cpp.obj	603d904ef6314db8
 17	451	7637488660349676	CMakeFiles/my_study_c++.dir/source/study_operator.cpp.obj	3b579d6d73bba633
-2	421	7637498304026612	CMakeFiles/my_study_c++.dir/source/study_this.cpp.obj	116c5d8b5b6134a8
-422	486	7637498308236790	my_study_c++.exe	ae86cda7f4ca7bc2
 18	450	7637498679559358	CMakeFiles/my_study_c++.dir/source/study_this.cpp.obj	116c5d8b5b6134a8
-450	514	7637498683870777	my_study_c++.exe	ae86cda7f4ca7bc2
+4	472	7637528696334509	CMakeFiles/my_study_c++.dir/source/study_inn.cpp.obj	3391f2334332fa7e
+10	520	7637529116787912	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+521	711	7637529121898210	my_study_c++.exe	d2983b30a1b0680
+3	575	7637534953702629	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+576	775	7637534959423847	my_study_c++.exe	d2983b30a1b0680
+3	564	7637535034830156	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+564	758	7637535040444432	my_study_c++.exe	d2983b30a1b0680
+26	615	7637535331409116	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+615	816	7637535337311062	my_study_c++.exe	d2983b30a1b0680
+4	594	7637537697949514	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+594	796	7637537703859282	my_study_c++.exe	d2983b30a1b0680
+3	580	7637538162404689	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+580	773	7637538168171464	my_study_c++.exe	d2983b30a1b0680
+4	573	7637538605966726	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+574	768	7637538611670166	my_study_c++.exe	d2983b30a1b0680
+3	565	7637538905371134	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+565	757	7637538910995739	my_study_c++.exe	d2983b30a1b0680
+3	572	7637539125596869	CMakeFiles/my_study_c++.dir/source/study_smart_ptr.cpp.obj	a5bfbd006b9f8515
+572	768	7637539131282913	my_study_c++.exe	d2983b30a1b0680
