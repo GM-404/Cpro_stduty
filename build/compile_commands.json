@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/Cpro_stduty/build",
-  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_copy.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_copy.cpp",
-  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_copy.cpp",
-  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_copy.cpp.obj"
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_array_dynamic.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_array_dynamic.cpp",
+  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_array_dynamic.cpp",
+  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_array_dynamic.cpp.obj"
 }
 ]

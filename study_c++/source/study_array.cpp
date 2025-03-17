@@ -173,6 +173,7 @@ int main(int argc, char **argv)
     // cout << &arr7[0][0] + 1 << endl;	//00DAFB38	后移4字节【跳过1个元素】
 
     // /* 数组指针，指向数组长度为4的int数组 */
+
     // //arr或&arr[0]：地址类型int(*)[4]
     // int (*p1)[4] = arr7+1;		//正确
     // int (*p2)[4] = &arr7[0];	//正确    选择行
@@ -183,4 +184,6 @@ int main(int argc, char **argv)
     // int(*p)[3][4] = &arr7;	//正确
     // cout << "p: " << *p << endl;
     // return 0;
+
+    // 动态数组
 }
