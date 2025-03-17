@@ -104,7 +104,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "source/study_array_dynamic.cpp",
+			"path" : "source/study_static_library.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

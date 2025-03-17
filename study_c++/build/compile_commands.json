@@ -1,6 +1,6 @@
 [
 {
-  "directory": "F:/Cpro_stduty/build",
+  "directory": "F:/Cpro_stduty/study_c++/build",
   "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_static_library.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_static_library.cpp",
   "file": "F:\\Cpro_stduty\\study_c++\\source\\study_static_library.cpp",
   "output": "CMakeFiles\\my_study_c++.dir\\source\\study_static_library.cpp.obj"

@@ -27,5 +27,8 @@ add_executable(my_study_c++
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_smart_ptr.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_copy.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_arrow.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_array_dynamic.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_array_dynamic.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_static_library.cpp
 )
+
+link_directories(../dll/build)
