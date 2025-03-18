@@ -1,8 +1,14 @@
 [
 {
   "directory": "F:/Cpro_stduty/build",
-  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -g -o CMakeFiles\\my_study_c++.dir\\source\\study_static_library.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_static_library.cpp",
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/static/hello/include -g -std=gnu++17 -o CMakeFiles\\study_c++.dir\\source\\study_static_library.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_static_library.cpp",
   "file": "F:\\Cpro_stduty\\study_c++\\source\\study_static_library.cpp",
-  "output": "CMakeFiles\\my_study_c++.dir\\source\\study_static_library.cpp.obj"
+  "output": "CMakeFiles\\study_c++.dir\\source\\study_static_library.cpp.obj"
+},
+{
+  "directory": "F:/Cpro_stduty/build",
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/static/hello/include -g -std=gnu++17 -o static\\hello\\CMakeFiles\\say_hello.dir\\source\\say_hello.cpp.obj -c F:\\Cpro_stduty\\static\\hello\\source\\say_hello.cpp",
+  "file": "F:\\Cpro_stduty\\static\\hello\\source\\say_hello.cpp",
+  "output": "static\\hello\\CMakeFiles\\say_hello.dir\\source\\say_hello.cpp.obj"
 }
 ]

@@ -1,8 +1,0 @@
-[
-{
-  "directory": "F:/Cpro_stduty/dll/build",
-  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/dll/include -g -o CMakeFiles\\lib_say_hello.dir\\source\\say_hello.cpp.obj -c F:\\Cpro_stduty\\dll\\source\\say_hello.cpp",
-  "file": "F:\\Cpro_stduty\\dll\\source\\say_hello.cpp",
-  "output": "CMakeFiles\\lib_say_hello.dir\\source\\say_hello.cpp.obj"
-}
-]

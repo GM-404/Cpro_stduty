@@ -1,3 +1,6 @@
-F:/Cpro_stduty/build/CMakeFiles/my_study_c++.dir
+F:/Cpro_stduty/build/CMakeFiles/study_c++.dir
 F:/Cpro_stduty/build/CMakeFiles/edit_cache.dir
 F:/Cpro_stduty/build/CMakeFiles/rebuild_cache.dir
+F:/Cpro_stduty/build/static/hello/CMakeFiles/say_hello.dir
+F:/Cpro_stduty/build/static/hello/CMakeFiles/edit_cache.dir
+F:/Cpro_stduty/build/static/hello/CMakeFiles/rebuild_cache.dir
