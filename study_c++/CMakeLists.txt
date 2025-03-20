@@ -1,19 +1,13 @@
 # 项目最低版本要求
 cmake_minimum_required(VERSION 3.10)
-
-# 项目名称
 project(study_c++)
-
-# 设置C++标准
-# set是创建变量，赋值变量的方法
-# CMAKE_XX是由CMAKE自动创建的变量
-# CMake中用户可以自定义变量
 set(CMAKE_CXX_STANDARD 17)
 
 # 在 CMakeLists.txt 中添加
 # ${CMAKE_CURRENT_SOURCE_DIR}是预设变量，指的是当前CMakeLists.txt所在的路径
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(../static/hello/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/add)
 
 # 添加子目录
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/source SRC_LIST) # 以后可以使用 SRC_LIST代指这个路径下面的所有文件
@@ -42,8 +36,11 @@ add_executable(${PROJECT_NAME}
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_arrow.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_array_dynamic.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/source/study_static_library.cpp
+
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_dynamic_library.cpp
 )
 
+# 在构建目标结束后，拷贝.dll文件到可执行程序目录下
 # 添加子目录，执行hello文件夹下面的CMakeLists.txt,其中构建了hello静态库
 # ../ 表示上一级目录，所以 ../hello 指的是当前 CMakeLists.txt 文件所在目录的上一级目录下的 hello 目录
 # ${CMAKE_CURRENT_BINARY_DIR}/hello：这是二进制目录参数，指定了子项目的构建输出目录

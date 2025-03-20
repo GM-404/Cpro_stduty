@@ -36,13 +36,19 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 15,
+				"line" : 8,
 				"parent" : 2
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 16,
+				"line" : 9,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
 				"parent" : 2
 			},
 			{
@@ -74,6 +80,10 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "F:/Cpro_stduty/study_c++/add"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "F:/Cpro_stduty/static/hello/include"
 				}
 			],

@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_study_c++: phony || cmake_object_order_d
 build CMakeFiles/study_c++.dir/source/study_static_library.cpp.obj: CXX_COMPILER__study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_static_library.cpp || cmake_object_order_depends_target_study_c++
   DEP_FILE = CMakeFiles\study_c++.dir\source\study_static_library.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/static/hello/include
+  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/add -IF:/Cpro_stduty/static/hello/include
   OBJECT_DIR = CMakeFiles\study_c++.dir
   OBJECT_FILE_DIR = CMakeFiles\study_c++.dir\source
 
@@ -115,7 +115,7 @@ build cmake_object_order_depends_target_say_hello: phony || .
 build static/hello/CMakeFiles/say_hello.dir/source/say_hello.cpp.obj: CXX_COMPILER__say_hello_unscanned_Debug F$:/Cpro_stduty/static/hello/source/say_hello.cpp || cmake_object_order_depends_target_say_hello
   DEP_FILE = static\hello\CMakeFiles\say_hello.dir\source\say_hello.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/static/hello/include
+  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/add -IF:/Cpro_stduty/static/hello/include
   OBJECT_DIR = static\hello\CMakeFiles\say_hello.dir
   OBJECT_FILE_DIR = static\hello\CMakeFiles\say_hello.dir\source
 
