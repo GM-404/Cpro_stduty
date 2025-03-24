@@ -41,7 +41,8 @@ add_executable(${PROJECT_NAME}
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_arrow.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_array_dynamic.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_static_library.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_dynamic_library.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_dynamic_library.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_return_many.cpp
 )
 
 # 在构建目标结束后，拷贝.dll文件到可执行程序目录下
