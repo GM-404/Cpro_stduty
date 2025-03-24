@@ -35,8 +35,7 @@ add_executable(${PROJECT_NAME}
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_explicit.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_operator.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_this.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_inn.cpp
-
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_inn.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_smart_ptr.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_copy.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_arrow.cpp
@@ -45,6 +44,7 @@ add_executable(${PROJECT_NAME}
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_dynamic_library.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_return_many.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_Cpro_templete.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_macro.cpp
 )
 
 # 在构建目标结束后，拷贝.dll文件到可执行程序目录下
