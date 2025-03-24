@@ -1,5 +1,6 @@
 #include <iostream>
 #include "LOG.hh"
+/*shift + alt 竖行选中*/
 
 // 作用域
 class entity
@@ -71,5 +72,14 @@ int main()
     {
         ScopedPte e = new entity();
     }
-    return 0;
+
+    // 堆分配的内存不会自动释放，需要手动释放
+    int *a = new int;
+    *a = 2;
+    LOG(*a);
+    int *b = new int[50];
+    b[0] = 1;
+    LOG(b[0]);
+    delete a;
+    delete[] b;
 }
