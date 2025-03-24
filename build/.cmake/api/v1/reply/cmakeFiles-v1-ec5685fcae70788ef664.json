@@ -208,6 +208,10 @@
 		{
 			"isExternal" : true,
 			"path" : "F:/Cpro_stduty/static/hello/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "F:/Cpro_stduty/dynamic/mul/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

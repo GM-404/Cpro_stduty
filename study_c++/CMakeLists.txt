@@ -4,13 +4,18 @@ project(study_c++)
 set(CMAKE_CXX_STANDARD 17)
 
 # 在 CMakeLists.txt 中添加
-# ${CMAKE_CURRENT_SOURCE_DIR}是预设变量，指的是当前CMakeLists.txt所在的路径
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
-include_directories(../static/hello/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/add)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include) # 当前文件夹的include文件夹
+include_directories(../static/hello/include) # 上一级文件夹的include文件夹
+include_directories(../dynamic/mul) # 上一级文件夹的add文件夹
 
 # 添加子目录
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/source SRC_LIST) # 以后可以使用 SRC_LIST代指这个路径下面的所有文件
+
+# GLOB参数的作用是将指定路径下的所有文件名存入变量SRC_LIST
+# GLOB_RECURSE参数的作用是将指定路径下的所有文件名存入变量SRC_LIST，并且会遍历所有子目录
+# file(GLOB SRC_LIST "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp") # 使用GLOB命令查找指定目录下的所有源文件，并将文件名存入变量SRC_LIST
+
+# set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin) # 设置可执行文件的输出路径
 
 # cmake中的变量都是字符串，使用${变量名}来引用,此处的PROJECT_NAME是预设变量，由project()函数自动赋值
 add_executable(${PROJECT_NAME}
@@ -35,9 +40,8 @@ add_executable(${PROJECT_NAME}
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_copy.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_arrow.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_array_dynamic.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_static_library.cpp
-
-    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_dynamic_library.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_static_library.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_dynamic_library.cpp
 )
 
 # 在构建目标结束后，拷贝.dll文件到可执行程序目录下
@@ -45,9 +49,11 @@ add_executable(${PROJECT_NAME}
 # ../ 表示上一级目录，所以 ../hello 指的是当前 CMakeLists.txt 文件所在目录的上一级目录下的 hello 目录
 # ${CMAKE_CURRENT_BINARY_DIR}/hello：这是二进制目录参数，指定了子项目的构建输出目录
 add_subdirectory(../static/hello ${CMAKE_CURRENT_BINARY_DIR}/static/hello)
+add_subdirectory(../dynamic/mul ${CMAKE_CURRENT_BINARY_DIR}/dynamic/mul)
 
 # 向可执行文件添加链接库
 # PUBLIC：表示该库对于当前目标是必需的，并且该依赖关系会传播给依赖于当前目标的其他目标。也就是说，如果有其他目标依赖于 ${PROJECT_NAME}，那么它们也会自动链接 say_hello 库。
 # PRIVATE：表示该库仅用于当前目标的链接，不会传播给依赖于当前目标的其他目标。
 # INTERFACE：表示该库不需要链接到当前目标，但依赖于当前目标的其他目标需要链接该库。
 target_link_libraries(${PROJECT_NAME} PUBLIC say_hello)
+target_link_libraries(${PROJECT_NAME} PUBLIC F:\\Cpro_stduty\\dynamic\\mul\\bin\\libmul.dll) # 链接动态库)

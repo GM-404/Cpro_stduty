@@ -49,10 +49,10 @@ cmake_ninja_workdir = F$:/Cpro_stduty/build/
 
 build cmake_object_order_depends_target_study_c++: phony || cmake_object_order_depends_target_say_hello
 
-build CMakeFiles/study_c++.dir/source/study_static_library.cpp.obj: CXX_COMPILER__study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_static_library.cpp || cmake_object_order_depends_target_study_c++
-  DEP_FILE = CMakeFiles\study_c++.dir\source\study_static_library.cpp.obj.d
+build CMakeFiles/study_c++.dir/source/study_dynamic_library.cpp.obj: CXX_COMPILER__study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_dynamic_library.cpp || cmake_object_order_depends_target_study_c++
+  DEP_FILE = CMakeFiles\study_c++.dir\source\study_dynamic_library.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/add -IF:/Cpro_stduty/static/hello/include
+  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/../dynamic/mul -IF:/Cpro_stduty/static/hello/include
   OBJECT_DIR = CMakeFiles\study_c++.dir
   OBJECT_FILE_DIR = CMakeFiles\study_c++.dir\source
 
@@ -64,9 +64,9 @@ build CMakeFiles/study_c++.dir/source/study_static_library.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable study_c++.exe
 
-build study_c++.exe: CXX_EXECUTABLE_LINKER__study_c.2b.2b_Debug CMakeFiles/study_c++.dir/source/study_static_library.cpp.obj | static/hello/libsay_hello.a || static/hello/libsay_hello.a
+build study_c++.exe: CXX_EXECUTABLE_LINKER__study_c.2b.2b_Debug CMakeFiles/study_c++.dir/source/study_dynamic_library.cpp.obj | static/hello/libsay_hello.a F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll || static/hello/libsay_hello.a
   FLAGS = -g
-  LINK_LIBRARIES = static/hello/libsay_hello.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = static/hello/libsay_hello.a  F:/Cpro_stduty/dynamic/mul/bin/libmul.dll  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\study_c++.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -115,7 +115,7 @@ build cmake_object_order_depends_target_say_hello: phony || .
 build static/hello/CMakeFiles/say_hello.dir/source/say_hello.cpp.obj: CXX_COMPILER__say_hello_unscanned_Debug F$:/Cpro_stduty/static/hello/source/say_hello.cpp || cmake_object_order_depends_target_say_hello
   DEP_FILE = static\hello\CMakeFiles\say_hello.dir\source\say_hello.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/add -IF:/Cpro_stduty/static/hello/include
+  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/../dynamic/mul -IF:/Cpro_stduty/static/hello/include
   OBJECT_DIR = static\hello\CMakeFiles\say_hello.dir
   OBJECT_FILE_DIR = static\hello\CMakeFiles\say_hello.dir\source
 
@@ -160,9 +160,78 @@ build static/hello/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build static/hello/rebuild_cache: phony static/hello/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# F:/Cpro_stduty/study_c++/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target mul
+
+
+#############################################
+# Order-only phony target for mul
+
+build cmake_object_order_depends_target_mul: phony || .
+
+build dynamic/mul/CMakeFiles/mul.dir/mul.cpp.obj: CXX_COMPILER__mul_unscanned_Debug F$:/Cpro_stduty/dynamic/mul/mul.cpp || cmake_object_order_depends_target_mul
+  DEFINES = -Dmul_EXPORTS
+  DEP_FILE = dynamic\mul\CMakeFiles\mul.dir\mul.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/../dynamic/mul
+  OBJECT_DIR = dynamic\mul\CMakeFiles\mul.dir
+  OBJECT_FILE_DIR = dynamic\mul\CMakeFiles\mul.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target mul
+
+
+#############################################
+# Link the shared library F:\Cpro_stduty\dynamic\mul\bin\libmul.dll
+
+build F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll.a: CXX_SHARED_LIBRARY_LINKER__mul_Debug dynamic/mul/CMakeFiles/mul.dir/mul.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = dynamic\mul\CMakeFiles\mul.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_FILE = F:\Cpro_stduty\dynamic\mul\bin\libmul.dll
+  TARGET_IMPLIB = F:\Cpro_stduty\dynamic\mul\bin\libmul.dll.a
+  TARGET_PDB = mul.dll.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build dynamic/mul/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\Cpro_stduty\build\dynamic\mul && "C:\Program Files\CMake\bin\cmake-gui.exe" -SF:\Cpro_stduty\study_c++ -BF:\Cpro_stduty\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build dynamic/mul/edit_cache: phony dynamic/mul/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build dynamic/mul/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\Cpro_stduty\build\dynamic\mul && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SF:\Cpro_stduty\study_c++ -BF:\Cpro_stduty\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build dynamic/mul/rebuild_cache: phony dynamic/mul/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
+build libmul.dll: phony F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll
+
 build libsay_hello.a: phony static/hello/libsay_hello.a
+
+build mul: phony F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll
 
 build say_hello: phony static/hello/libsay_hello.a
 
@@ -176,7 +245,14 @@ build study_c++: phony study_c++.exe
 #############################################
 # Folder: F:/Cpro_stduty/build
 
-build all: phony study_c++.exe static/hello/all
+build all: phony study_c++.exe static/hello/all dynamic/mul/all
+
+# =============================================================================
+
+#############################################
+# Folder: F:/Cpro_stduty/build/dynamic/mul
+
+build dynamic/mul/all: phony F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll
 
 # =============================================================================
 
@@ -192,14 +268,14 @@ build static/hello/all: phony static/hello/libsay_hello.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeRCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeRCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeSystem.cmake F$:/Cpro_stduty/static/hello/CMakeLists.txt F$:/Cpro_stduty/study_c++/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeRCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeRCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeSystem.cmake F$:/Cpro_stduty/dynamic/mul/CMakeLists.txt F$:/Cpro_stduty/static/hello/CMakeLists.txt F$:/Cpro_stduty/study_c++/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeRCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeRCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeSystem.cmake F$:/Cpro_stduty/static/hello/CMakeLists.txt F$:/Cpro_stduty/study_c++/CMakeLists.txt: phony
+build C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Internal/CMakeRCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.31.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeRCCompiler.cmake CMakeFiles/3.31.0-rc2/CMakeSystem.cmake F$:/Cpro_stduty/dynamic/mul/CMakeLists.txt F$:/Cpro_stduty/static/hello/CMakeLists.txt F$:/Cpro_stduty/study_c++/CMakeLists.txt: phony
 
 
 #############################################

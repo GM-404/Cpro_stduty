@@ -36,6 +36,12 @@
 			{
 				"command" : 1,
 				"file" : 1,
+				"line" : 7,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
 				"line" : 8,
 				"parent" : 2
 			},
@@ -43,12 +49,6 @@
 				"command" : 1,
 				"file" : 1,
 				"line" : 9,
-				"parent" : 2
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 10,
 				"parent" : 2
 			},
 			{
@@ -80,7 +80,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "F:/Cpro_stduty/study_c++/add"
+					"path" : "F:/Cpro_stduty/study_c++/../dynamic/mul"
 				},
 				{
 					"backtrace" : 6,

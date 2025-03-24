@@ -4,3 +4,6 @@ F:/Cpro_stduty/build/CMakeFiles/rebuild_cache.dir
 F:/Cpro_stduty/build/static/hello/CMakeFiles/say_hello.dir
 F:/Cpro_stduty/build/static/hello/CMakeFiles/edit_cache.dir
 F:/Cpro_stduty/build/static/hello/CMakeFiles/rebuild_cache.dir
+F:/Cpro_stduty/build/dynamic/mul/CMakeFiles/mul.dir
+F:/Cpro_stduty/build/dynamic/mul/CMakeFiles/edit_cache.dir
+F:/Cpro_stduty/build/dynamic/mul/CMakeFiles/rebuild_cache.dir

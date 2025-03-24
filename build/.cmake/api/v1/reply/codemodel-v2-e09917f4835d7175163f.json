@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -19,7 +20,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -34,6 +35,21 @@
 					"source" : "F:/Cpro_stduty/static/hello",
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"build" : "dynamic/mul",
+					"jsonFile" : "directory-dynamic.mul-Debug-bdbfd18cc1958628f710.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Cpro_stduty/dynamic/mul",
+					"targetIndexes" : 
+					[
 						0
 					]
 				}
@@ -45,29 +61,38 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "study_c++",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 2,
+					"id" : "mul::@3c5db49e6ad93cfed079",
+					"jsonFile" : "target-mul-Debug-422dc22b36c97bc84adf.json",
+					"name" : "mul",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "say_hello::@9a7bdab68dfd819d55b6",
-					"jsonFile" : "target-say_hello-Debug-2bf2090e564bbe50d4f1.json",
+					"jsonFile" : "target-say_hello-Debug-bc5d3b32c397a1e5c4b9.json",
 					"name" : "say_hello",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "study_c++::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-study_c++-Debug-6084819c30577fa196b9.json",
+					"jsonFile" : "target-study_c++-Debug-08a01791e7405fb9e962.json",
 					"name" : "study_c++",
 					"projectIndex" : 0
 				}

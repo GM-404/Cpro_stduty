@@ -1,6 +1,6 @@
 # 这个模块中的CMakeLists.txt会被根目录下的CMakeLists.txt调用
 # 设定静态库名称，这里使用set命令创建了一个自定义变量hello_lib,记录了一个字符串say_hello
-
+# 这里默认的是字符串，如果需要引用其他变量，需要使用${}来引用
 set(hello_lib say_hello)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
