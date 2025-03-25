@@ -186,4 +186,7 @@ int main(int argc, char **argv)
     // return 0;
 
     // 动态数组
+
+    // 静态数组
+    std::array<int, 10> arr8 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 }
