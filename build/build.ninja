@@ -49,8 +49,8 @@ cmake_ninja_workdir = F$:/Cpro_stduty/build/
 
 build cmake_object_order_depends_target_study_c++: phony || cmake_object_order_depends_target_say_hello
 
-build CMakeFiles/study_c++.dir/source/study_dynamic_library.cpp.obj: CXX_COMPILER__study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_dynamic_library.cpp || cmake_object_order_depends_target_study_c++
-  DEP_FILE = CMakeFiles\study_c++.dir\source\study_dynamic_library.cpp.obj.d
+build CMakeFiles/study_c++.dir/source/study_fun_ptr.cpp.obj: CXX_COMPILER__study_c.2b.2b_unscanned_Debug F$:/Cpro_stduty/study_c++/source/study_fun_ptr.cpp || cmake_object_order_depends_target_study_c++
+  DEP_FILE = CMakeFiles\study_c++.dir\source\study_fun_ptr.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/../dynamic/mul -IF:/Cpro_stduty/static/hello/include
   OBJECT_DIR = CMakeFiles\study_c++.dir
@@ -64,7 +64,7 @@ build CMakeFiles/study_c++.dir/source/study_dynamic_library.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable study_c++.exe
 
-build study_c++.exe: CXX_EXECUTABLE_LINKER__study_c.2b.2b_Debug CMakeFiles/study_c++.dir/source/study_dynamic_library.cpp.obj | static/hello/libsay_hello.a F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll || static/hello/libsay_hello.a
+build study_c++.exe: CXX_EXECUTABLE_LINKER__study_c.2b.2b_Debug CMakeFiles/study_c++.dir/source/study_fun_ptr.cpp.obj | static/hello/libsay_hello.a F$:/Cpro_stduty/dynamic/mul/bin/libmul.dll || static/hello/libsay_hello.a
   FLAGS = -g
   LINK_LIBRARIES = static/hello/libsay_hello.a  F:/Cpro_stduty/dynamic/mul/bin/libmul.dll  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\study_c++.dir

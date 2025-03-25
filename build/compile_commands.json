@@ -1,9 +1,9 @@
 [
 {
   "directory": "F:/Cpro_stduty/build",
-  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/../dynamic/mul -IF:/Cpro_stduty/static/hello/include -g -std=gnu++17 -o CMakeFiles\\study_c++.dir\\source\\study_dynamic_library.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_dynamic_library.cpp",
-  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_dynamic_library.cpp",
-  "output": "CMakeFiles\\study_c++.dir\\source\\study_dynamic_library.cpp.obj"
+  "command": "D:\\SDK\\w64devkit\\bin\\g++.exe -IF:/Cpro_stduty/study_c++/include -IF:/Cpro_stduty/study_c++/../static/hello/include -IF:/Cpro_stduty/study_c++/../dynamic/mul -IF:/Cpro_stduty/static/hello/include -g -std=gnu++17 -o CMakeFiles\\study_c++.dir\\source\\study_fun_ptr.cpp.obj -c F:\\Cpro_stduty\\study_c++\\source\\study_fun_ptr.cpp",
+  "file": "F:\\Cpro_stduty\\study_c++\\source\\study_fun_ptr.cpp",
+  "output": "CMakeFiles\\study_c++.dir\\source\\study_fun_ptr.cpp.obj"
 },
 {
   "directory": "F:/Cpro_stduty/build",

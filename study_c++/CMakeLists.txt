@@ -45,7 +45,8 @@ add_executable(${PROJECT_NAME}
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_return_many.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_Cpro_templete.cpp
     # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_macro.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_auto.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/source/study_auto.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/study_fun_ptr.cpp
 )
 
 # 在构建目标结束后，拷贝.dll文件到可执行程序目录下
